@@ -288,9 +288,9 @@ if (all(na_shipment == 0) &&
 }
 
 
-DBI::dbWriteTable(database,"Customer",Customer,append=TRUE)
-DBI::dbWriteTable(database,"Product",Product,append=TRUE)
-DBI::dbWriteTable(database,"Discount",Discount,append=TRUE)
-DBI::dbWriteTable(database,"Shipment",Shipment,append=TRUE)
-DBI::dbWriteTable(database,"Category",Category,append=TRUE)
-DBI::dbWriteTable(database,"Order",Order,append=TRUE)
+dbWriteTable(database,"Customer",Customer,append=TRUE)
+dbWriteTable(database,"Product",Product,append=TRUE)
+dbWriteTable(database,"Discount",Discount,append=TRUE)
+dbWriteTable(database,"Shipment",Shipment,append=TRUE)
+dbWriteTable(database,"Category",Category,append=TRUE)
+dbWriteTable(database,"Order",Order,append=TRUE)
