@@ -287,6 +287,7 @@ if (all(na_shipment == 0) &&
   print("Shipment data is not valid. Please correct the errors.")
 }
 
+database <- dbConnect(RSQLite::SQLite(), dbname = 'Ecommerce.db')
 
 RSQLite::dbWriteTable(database,"Customer",Customer,append=TRUE)
 RSQLite::dbWriteTable(database,"Product",Product,append=TRUE)
