@@ -5,7 +5,7 @@ library(DBI)
 library(ggplot2)
 library(stringr)
 
-database <- dbConnect(RSQLite::SQLite(), dbname = 'Ecommerce.db') #Establish a connection to the SQLite database
+database <- RSQLite::dbConnect(RSQLite::SQLite(), dbname = 'Ecommerce.db') #Establish a connection to the SQLite database
 
 # Customer
 

@@ -3,7 +3,7 @@
 ## Top Locations by Purchasing Power
 
 # Query Order and Customer tables, joining them on customer_id
-order_customer <- dbGetQuery(database, "
+order_customer <- RSQLite::dbGetQuery(database, "
   SELECT O.order_number, O.customer_id, O.product_id, O.quantity, C.customer_country
   FROM `Order` AS O
   JOIN Customer AS C ON O.customer_id = C.customer_id
