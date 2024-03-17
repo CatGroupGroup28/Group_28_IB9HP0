@@ -31,4 +31,9 @@ jobs:
           Rscript R/physical_schema.R
           Rscript R/data_loading_validation.R
           Rscript R/data_analysis.R
-     
+      - name: Add files
+        run: |
+          git config --local --unset-all "http.https://github.com/.extraheader"
+          git config --global user.email "isaacchuadx@gmail.com"
+          git config --global user.name "isaacdexi"
+          git add --all figures/
