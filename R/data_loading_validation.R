@@ -1,12 +1,12 @@
 # loading of data
 
-Customer <- readr::read_csv("../project/Dataset/fake_customer_data.csv")
-Category <- readr::read_csv("../project/Dataset/fake_category_data.csv")
-Sellers <- readr::read_csv("../project/Dataset/fake_seller_data.csv")
-Product <- readr::read_csv("../project/Dataset/fake_product_data.csv")
-Discount <- readr::read_csv("../project/Dataset/fake_discount_data.csv")
-Shipment <- readr::read_csv("../project/Dataset/fake_shipment_data.csv")
-Order <- readr::read_csv("../project/Dataset/fake_order_data.csv")
+Customer <- readr::read_csv("Dataset/fake_customer_data.csv")
+Category <- readr::read_csv("Dataset/fake_category_data.csv")
+Sellers <- readr::read_csv("Dataset/fake_seller_data.csv")
+Product <- readr::read_csv("Dataset/fake_product_data.csv")
+Discount <- readr::read_csv("Dataset/fake_discount_data.csv")
+Shipment <- readr::read_csv("Dataset/fake_shipment_data.csv")
+Order <- readr::read_csv("Dataset/fake_order_data.csv")
 
 # Validation
 
