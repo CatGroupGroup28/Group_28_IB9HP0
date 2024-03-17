@@ -32,8 +32,8 @@ jobs:
       - name: Add files
         run: |
           git config --local --unset-all "http.https://github.com/.extraheader"
-          git config --global user.email "isaacchuadx@gmail.com"
-          git config --global user.name "isaacdexi"
+          git config --global user.email "wenniechg@gmail.com"
+          git config --global user.name "wenniechgg"
           git add --all R/
       - name: Commit files
         run: |
