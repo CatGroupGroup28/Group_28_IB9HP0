@@ -466,3 +466,4 @@ ggplot(country_sales[1:5, ], aes(x = reorder(customer_country, -total_sales), y 
 ## Top 5 Products by Number of Purchases
 
 ## Top 5 Products by Conversion Rate
+print("The ggplot plot has been printed in RStudio.")
