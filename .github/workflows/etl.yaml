@@ -29,8 +29,6 @@ jobs:
       - name: Execute R script
         run: |
           Rscript R/physical_schema.R
-          Rscript R/data_loading_validation.R
-          Rscript R/data_analysis.R
       - name: Add files
         run: |
           git config --local --unset-all "http.https://github.com/.extraheader"
