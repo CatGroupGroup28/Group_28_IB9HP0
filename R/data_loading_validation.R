@@ -288,9 +288,9 @@ if (all(na_shipment == 0) &&
 }
 
 
-dbWriteTable(database,"Customer",Customer,append=TRUE)
-dbWriteTable(database,"Product",Product,append=TRUE)
-dbWriteTable(database,"Discount",Discount,append=TRUE)
-dbWriteTable(database,"Shipment",Shipment,append=TRUE)
-dbWriteTable(database,"Category",Category,append=TRUE)
-dbWriteTable(database,"Order",Order,append=TRUE)
+RSQLite::dbWriteTable(database,"Customer",Customer,append=TRUE)
+RSQLite::dbWriteTable(database,"Product",Product,append=TRUE)
+RSQLite::dbWriteTable(database,"Discount",Discount,append=TRUE)
+RSQLite::dbWriteTable(database,"Shipment",Shipment,append=TRUE)
+RSQLite::dbWriteTable(database,"Category",Category,append=TRUE)
+RSQLite::dbWriteTable(database,"Order",Order,append=TRUE)
