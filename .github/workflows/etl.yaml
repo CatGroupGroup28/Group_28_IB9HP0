@@ -34,7 +34,7 @@ jobs:
           git config --local --unset-all "http.https://github.com/.extraheader"
           git config --global user.email "isaacchuadx@gmail.com"
           git config --global user.name "isaacdexi"
-          git add --all figures/
+          git add --all R/
       - name: Commit files
         run: |
           git commit -m "Add plots"
