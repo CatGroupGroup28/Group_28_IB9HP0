@@ -37,6 +37,7 @@ jobs:
           git add --all R/
       - name: Commit files
         run: |
+          git add Ecommerce.db
           git commit -m "Add plots"
       - name: Push changes
         uses: ad-m/github-push-action@v0.6.0
